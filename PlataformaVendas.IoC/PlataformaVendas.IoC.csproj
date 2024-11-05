@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PlataformaVendas.Application\PlataformaVendas.Application.csproj" />
+    <ProjectReference Include="..\PlataformaVendas.Data\PlataformaVendas.Data.csproj" />
+    <ProjectReference Include="..\PlataformaVendas.Entities\PlataformaVendas.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
